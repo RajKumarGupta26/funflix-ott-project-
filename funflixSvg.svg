@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+    <rect width="100" height="100" rx="22" fill="#000000" />
+    <defs>
+        <linearGradient id="flixRed" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ff1a1a" />
+            <stop offset="100%" stop-color="#b0060f" />
+        </linearGradient>
+    </defs>
+    <!-- Stylized F with slight slant -->
+    <text x="50%" y="70%" 
+          font-family="'Arial Black', Impact, sans-serif" 
+          font-size="70" 
+          font-weight="900" 
+          fill="url(#flixRed)" 
+          text-anchor="middle"
+          transform="skewX(-6) translate(3, 0)">
+        F
+    </text>
+</svg>

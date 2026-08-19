@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funflix</title>
+
+    <link rel="stylesheet" href="array.css">
+
+    <link rel="icon" type="image/svg+xml" href="funflixSvg.svg">
+</head>
+
+<body>
+
+
+    <div class="funflix-brand">
+        <span>F</span><span>U</span><span>N</span><span>F</span><span>L</span><span>I</span><span>X</span>
+    </div>
+
+    <div class="redbull">
+        <button onclick="abc.showModal()">LOGIN !</button>
+    </div>
+    <dialog id="abc">
+
+
+
+        <div class="red">
+            <form action="">
+                Username : <br>
+                <input type="text" placeholder="Enter Your Name">
+
+                E-mail : <br>
+                <input type="text" placeholder="Enter Your E-mail">
+
+                Choose Gender :
+                <select>
+                    <option>Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <div class="Number">
+                    Number :<br class="mobile">
+                    <input type="text" placeholder="Enter Mobile Number">
+                </div>
+
+
+
+
+
+
+
+                <button type="button" onclick="fid.showModal()" class="proceed-btn">Proceed</button>
+                <dialog id="fid">
+                    <div class="container">
+
+                        <div class="hero">
+                            <img class="bg-img" src="f:\Other Gallery\343434.png">
+
+
+                            <div class="top-left-bar">
+                                <div class="language">
+                                    <select>
+                                        <option value="English">English</option>
+                                        <option value="Hindi">Hindi</option>
+                                        <option value="German">German</option>
+                                        <option value="Punjabi">Punjabi</option>
+                                        <option value="French">French</option>
+                                        <option value="japanise">japanise</option>
+                                        <option value="Sanskrit"> Sanskrit</option>
+                                    </select>
+                                </div>
+                                <div class="sign">
+                                    <p> Sign-In </p>
+                                </div>
+                            </div>
+
+                            <div class="sin">
+                                <span>F</span><span>U</span><span>N</span><span>F</span><span>L</span><span>I</span><span>X</span>
+                            </div>
+
+                            <div class="content">
+                                <h1> GET UNLIMITED MOVIE,
+                                    <p>FILM AND MORE</p>
+
+                                    <p>IN FREE.</p>
+                                </h1>
+
+
+                                <div class="box">
+                                    <label>MX Player:</label>
+                                    <input type="text" id="mxplayerInput" value="" placeholder="Search movies, shows..."
+                                        onkeypress="if(event.key==='Enter'){searchMXPlayer(); return false;}">
+                                    <button type="button" onclick="searchMXPlayer()">
+                                        Search
+                                    </button>
+                                </div>
+
+                                <div class="box">
+                                    <label>Spotify:</label>
+                                    <input type="text" id="spotifyInput" value="" placeholder="Search songs, artists..."
+                                        onkeypress="if(event.key==='Enter'){searchSpotify(); return false;}">
+
+                                    <button type="button" onclick="searchSpotify()">
+                                        Search
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="yt">
+                            <label>YouTube:</label>
+                            <form action="https://www.youtube.com/results?search_query=song">
+                                <input type="text" placeholder="Search videos..." name="search_query">
+                                <button type="submit">Search</button>
+                            </form>
+                        </div>
+
+
+                        <div class="double-container">
+                            <p>Trending Movie</p>
+
+                            <div class="movie">
+                                <div class="row">
+                                    <div class="film">
+                                        <a href="https://youtu.be/YLorLVa95Xo?si=oC1rF_s_SUUwlata">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVvH_WzcjxItJ4yw8iMK_vbuzaWs3TKPQWQ&s"
+                                                id="scrolling" alt="">
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/JOddp-nlNvQ?si=PIM5xvzTEQGZ4b84">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJ4velul5S_nSAMB_FBBgNdkkJXSldT2cQg&s"
+                                                id="scrolling" alt=""> </a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/xbqNb2PFKKA?si=Mle7BHsJA9kPf_YQ">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYWL8mZwQ0eTDctiMwQyx1B2cdkgQ-h84OHw&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/6ZfuNTqbHE8?si=_Zq431_QMv6Q0WM3">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAXBvCRv_v5U5AO_OklFdUk_7IrGzUGmDCUg&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/hA6hldpSTF8?si=QQ-akjuXrs6bOmmH">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMvA_EXueorTqaeJI9JOdGtNmw6Y0vFArMUQ&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/1clWprLC5Ak?si=ZeI4PIAeyNmWNA8U">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHhl0jI8zjshm8tNhk3atN1pMBkmbh10wLxg&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/Ervg0OnT238?si=5GVxl1BhR78VGA_o">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaHYZ4r2VRywEnWm9H23jC67tS3ld_HovWHA&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/fxMJLEqA75s?si=ekw76UHhGb0CVHdz">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJEqhP1akQuteU-Y1JwBVLeFZfNqV335DTTw&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/xT5wLEesY14?si=vPcdwcGMMngBRF63">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgj6C9KvDAtobuvNMT4HVp--IajzRjTzq97A&s"
+                                                id="scrolling" alt=""> </a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/FihmxWfF2fE?si=lpiROt5cl1Bt1EgE">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWJi0q6204P_tlsDKyg-QB5-xBeYUVuiTVvQ&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="film">
+                                        <a href="https://youtu.be/lX3VsosZA70?si=pl0Vo59ssQp42bIF">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYkl6wF5v-b4zHJ_IR9UsIoYd8tu-Iz54HJg&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/Q81T4QfdHOM?si=Wzyjqq81KObV0FbG">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBiVWUALo4PqBz9OG0tOXg7ojGqvegCIuWuA&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/-3L9wUnl1-A?si=NfNn5Jjo1aUDjE2c">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz-OIwr-2VWc3I75s21iZT3jiy27NmcWyCgw&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/1n1qn4QcZSY?si=YnjRUv4Se6gAFv3X">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS21vnISN7lhkXHRA1FpPNVnQZ2KoHoE4xgQw&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/XQNN_elwq94?si=0oxHe6gLFC2uRx8l">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gTzOJw_A9WD_-Za6WKxB6wzE55Lp6rXjKg&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/aWzlQ2N6qqg?si=91AYdfhL1m7gBwFj">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ997Pe33F-h-3472hheXWlrBTJcKaBpMxJ6g&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://www.youtube.com/live/E72wKwOwoLQ?si=GX3m6f-v--RXWQSy">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnieqfEjdTYzxl1MsM3q0v5dkqekhLLBDbTA&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+
+                                    <div class="film"><a href="https://youtu.be/pEl3-0GHyoQ?si=UyrBww7p5QWOvBgo">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02PlQnnSJGodPClRCsyii7PhGa86pctpxPA&s"
+                                                id="scrolling" alt=""></a> </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/146wAzknjmM?si=6Z4xa2URFZphCYJF">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvdXBBs6kkyl0sOgUvigeyVYBPq-be0BPkQ&s"
+                                                id="scrolling" alt=""></a>
+                                    </div>
+                                    <div class="film">
+                                        <a href="https://youtu.be/KPLWWIOCOOQ?si=u_YuXHZ-RCcLwoJp">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYFbeyfNjFmGs0kSzb_MGzByZaAttTROj5uA&s"
+                                                id="scrolling" alt="abc"> </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="info" id="info">
+                                <details>
+
+                                    <summary>🎬 About Our Channel?</summary>
+                                    <div class="sub-class">
+                                        <li> FUNFLIX Movies is an entertainment-focused streaming channel created for
+                                            movie lovers who
+                                            enjoy
+                                            action, drama, thrillers, and blockbuster cinema. Our channel brings you a
+                                            wide collection
+                                            of
+                                            trending movies, trailers, and exclusive content from around the world.</li>
+
+                                        <li>We aim to provide a smooth and user-friendly experience where viewers can
+                                            explore popular
+                                            films,
+                                            discover new releases, and enjoy cinematic content in multiple languages —
+                                            all in one place.
+                                        </li>
+
+                                        <li>FUNFLIX Movies is designed for learning, entertainment, and demonstration
+                                            purposes, offering a
+                                            clean interface, fast navigation, and visually engaging content inspired by
+                                            modern streaming
+                                            platforms.</li>
+                                    </div>
+                            </div>
+                            </details>
+
+
+                            <div class="watch">
+
+                                <details>
+                                    <summary>📺 Where can I Watch?</summary>
+                                    <div class="any">
+                                        <li>Watch anywhere, anytime. Sign in with your FUNFLIX account to watch
+                                            instantly
+                                            on the web at
+                                            funflix.com from your personal computer or on any internet-connected device
+                                            that offers the
+                                            FUNFLIX
+                                            app, including smart TVs, smartphones, tablets, streaming media players and
+                                            game consoles.
+                                        </li>
+
+                                        <li>You can also download your favourite shows with the iOS or Android app. Use
+                                            downloads to
+                                            watch
+                                            while
+                                            you're on the go and without an internet connection. Take FUNFLIX with you
+                                            anywhere.
+                                        </li>
+                                    </div>
+                            </div>
+                            </details>
+
+
+                            <div class="can">
+                                <details>
+
+                                    <summary>
+                                        🎞️ What can I Watch on FUNFLIX?
+                                    </summary>
+                                    <div class="want">
+
+                                        <li>FUNFLIX has an extensive library of feature films, documentaries, shows,
+                                            anime, award-winning
+                                            FUNFLIX originals, and more. Watch as much as you want, anytime you want.
+                                        </li>
+                                    </div>
+                            </div>
+
+                            </details>
+
+
+                            <div class="kids">
+                                <details>
+
+                                    <summary>👦 FUNFLIX Good for Kids?</summary>
+                                    <div class="tv">
+                                        <li> The FUNFLIX Kids experience is included in your membership to give parents
+                                            control while kids
+                                            enjoy
+                                            family-friendly TV shows and films in their own space.</li>
+
+                                        <li>Kids profiles come with PIN-protected parental controls that let you
+                                            restrict the maturity
+                                            rating of
+                                            content kids can watch and block specific titles you don’t want kids to see.
+                                        </li>
+                                    </div>
+                            </div>
+                            </details>
+                            <div class="start">
+                                <li>Ready to Watch ?Enter your number to create or restart your membership.</li>
+
+                            </div>
+
+
+                            <div class="call">
+                                <li>Questions? Call 000-800-919-1743</li>
+                            </div>
+
+                            <div class="tall">
+
+                                <div class="a">
+                                    <li>FAQ</li>
+                                </div>
+
+                                <div class="b">
+                                    <li>Investor Relations</li>
+                                </div>
+
+                                <div class="c">
+                                    <li>Privacy</li>
+                                </div>
+
+                                <div class="d">
+                                    <li>speed test</li>
+                                </div>
+
+                                <div class="e">
+                                    <li>Help Centre</li>
+                                </div>
+
+                                <div class="f">
+                                    <li>Jobs</li>
+                                </div>
+
+                                <div class="g">
+                                    <li> Cookie Preferences</li>
+                                </div>
+
+                                <div class="h">
+                                    <li>Legal Notice</li>
+                                </div>
+
+                                <div class="i">
+                                    <li>Account</li>
+                                </div>
+
+                                <div class="j">
+                                    <li>Only on FUNFLIX</li>
+                                </div>
+
+                                <div class="k">
+                                    <li>Copprate Information</li>
+                                </div>
+
+                                <div class="l">
+                                    <li> Way to Watch </li>
+                                </div>
+
+                            </div>
+                            <div class="m">
+                                <li>Contact us</li>
+                            </div>
+
+                            <div class="n">
+                                <li> T&C</li>
+                            </div>
+
+                        </div>
+
+
+                        <div class=" second-last">
+                            <p>FUNFLIX - INDIA</p>
+                        </div>
+
+                        <div class="last">
+                            <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.
+                            <ul> Learn more.</ul>
+                            </p>
+                        </div>
+
+                </dialog>
+        </div>
+
+        </form>
+        </div>
+
+    </dialog>
+
+    <script>
+        function searchMXPlayer() {
+            const query = document.getElementById('mxplayerInput').value.trim();
+            const url = query
+                ? 'https://www.google.com/search?q=' + encodeURIComponent(query + ' site:mxplayer.in')
+                : 'https://www.mxplayer.in/';
+            window.open(url, '_blank');
+        }
+
+        function searchSpotify() {
+            const query = document.getElementById('spotifyInput').value.trim();
+            const url = query
+                ? 'https://open.spotify.com/search/' + encodeURIComponent(query)
+                : 'https://open.spotify.com/';
+            window.open(url, '_blank');
+        }
+    </script>
+
+</body>
+
+</html>
